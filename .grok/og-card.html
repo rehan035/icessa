@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  @font-face {
+    font-family: "Playfair";
+    src: url("fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 400 900;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "Playfair";
+    src: url("fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+    font-weight: 400 900;
+    font-style: italic;
+    font-display: block;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #6B1D32;
+  }
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    background:
+      radial-gradient(ellipse 78% 86% at 50% 44%, #8d3348 0%, #6B1D32 52%, #2C1814 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 26px;
+    border: 1px solid rgba(201, 132, 140, 0.72);
+    pointer-events: none;
+  }
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 34px;
+    border: 1px solid rgba(246, 239, 230, 0.16);
+    pointer-events: none;
+  }
+  .lockup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-4px);
+  }
+  .crest { width: 168px; height: 156px; display: block; }
+  h1 {
+    font-family: "Playfair", "Liberation Serif", serif;
+    font-weight: 640;
+    font-style: normal;
+    font-size: 186px;
+    line-height: 0.86;
+    letter-spacing: 0.015em;
+    color: #FFFAF5;
+    margin-top: 6px;
+    white-space: nowrap;
+  }
+  .rule {
+    width: 88px;
+    height: 2px;
+    margin: 20px 0 16px;
+    background: #C9848C;
+    border-radius: 2px;
+  }
+  p {
+    font-family: "Playfair", "Liberation Serif", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: 0.012em;
+    color: #F6EFE6;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="lockup">
+      <svg class="crest" viewBox="0 0 168 156" aria-hidden="true">
+        <circle cx="84" cy="64" r="60" fill="none" stroke="#C9848C" stroke-width="1.25"/>
+        <path d="M46 96c8 18 68 18 76 0-18 10-58 10-76 0z" fill="#2C1814"/>
+        <rect x="80.5" y="108" width="7" height="18" rx="1" fill="#2C1814"/>
+        <ellipse cx="84" cy="128" rx="24" ry="5.5" fill="#2C1814"/>
+        <ellipse cx="84" cy="82" rx="42" ry="30" fill="#9A4A5C"/>
+        <ellipse cx="84" cy="54" rx="36" ry="28" fill="#F6EFE6"/>
+        <ellipse cx="70" cy="46" rx="11" ry="7" fill="#FFFAF5"/>
+        <circle cx="110" cy="42" r="7.5" fill="#C9848C"/>
+        <path d="M110 35c3-8 1-14 6-18" fill="none" stroke="#2C1814" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <h1>Frenzee</h1>
+      <div class="rule"></div>
+      <p>A Little Scoop of Happiness.</p>
+    </div>
+  </div>
+</body>
+</html>

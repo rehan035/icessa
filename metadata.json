@@ -1,0 +1,8 @@
+{
+  "name": "Frenzee Ice Cream",
+  "description": "Frenzee is a premium ice cream shop at Civic Centre, Johar Town, Lahore with signature scoops, artisan shakes, and online ordering.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

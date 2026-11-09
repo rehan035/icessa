@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Frenzee — Premium Ice Cream in Johar Town, Lahore",
+      "hasCanvas": false,
+      "bodyTextLen": 5754,
+      "bodyTextHash": "e0588de770770552fa4c63fcb8b3f807e991032a2f285309c193b1143322d119",
+      "bodyTextPrefix": "Frenzee Flavours Menu About Gallery Reviews Visit Order on Whats",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Frenzee — Premium Ice Cream in Johar Town, Lahore",
+      "hasCanvas": false,
+      "bodyTextLen": 5710,
+      "bodyTextHash": "0237fe4eb9ea1bc5a3d0df8f7228d59fd1e5d1a21407e6f7ddd21f8e1876f3f3",
+      "bodyTextPrefix": "Frenzee Order Open menu JOHAR TOWN, LAHORE A Little Scoop of Hap",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
